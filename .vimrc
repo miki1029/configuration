@@ -19,9 +19,9 @@ set clipboard=unnamed
 "
 " http://www.culater.net/software/SIMBL/SIMBL.php
 " https://bitheap.org/mouseterm/
-if has("mouse")
-   set mouse=a
-endif
+"if has("mouse")
+"   set mouse=a
+"endif
 
 " Bash-style tab completion
 set wildmode=longest,list
@@ -151,8 +151,8 @@ call vundle#end()
 colorscheme Benokai
 
 " Column 80 marker
-highlight OverLength ctermbg=red ctermfg=white guibg=#660000
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=red ctermfg=white guibg=#660000
+" match OverLength /\%81v.\+/
 
 " " Currently broken due to Vim/Semicolon issues
 " " Alt+; to toggle comments
